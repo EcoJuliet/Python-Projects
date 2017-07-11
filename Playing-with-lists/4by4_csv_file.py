@@ -68,15 +68,15 @@ import os
 
 # lista_de_listas = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]
 
-Bertuga = open('nome_generico.csv', 'a')
+name = open('nome_generico.csv', 'a')
 
 #TODO: ADICIONAR A LISTA 4X4 DE QUALQUER COISA
 for i in lista_de_listas:
     for i in i:
-        Bertuga.write((str(i)))
-        Bertuga.write('\n')
+        name.write((str(i)))
+        name.write('\n')
 #TODO FECHAR O ARQUIVO.
-Bertuga.close()
+name.close()
 
 print('DONE')
 
