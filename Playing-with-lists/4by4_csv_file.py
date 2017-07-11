@@ -1,13 +1,9 @@
 # UMA LISTA 4x4 NUM ARQUIVO .CSV QUALQUER
-
 # PARECE MUSICA
-
 
 #TODO: Fazer uma lista de 4x4 com números crescentes
 
 lista_de_listas = []
-
-
 
 # PRIMEIRA SUBLISTA
 for i in range(1):
@@ -35,9 +31,7 @@ for i in range(1):
     for i in range(4):
         x += 1
         sublista3.append(x)
-      
-
-
+   
 # QUARTA SUBLISTA
 for i in range(1):
     sublista4 = []
@@ -46,10 +40,6 @@ for i in range(1):
     for i in range(4):
         x += 1
         sublista4.append(x)
-        
-
-
-
     
 ''' 
 print('DEBUG:')
@@ -62,12 +52,10 @@ print('DEBUG: LISTA DE LISTAS')
 '''
 print(lista_de_listas)
 
-
 #TODO: CRIAR UM ARQUIVO CSV lindo
 import os
 
-# lista_de_listas = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]
-
+#DEBUG: lista_de_listas = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]
 name = open('nome_generico.csv', 'a')
 
 #TODO: ADICIONAR A LISTA 4X4 DE QUALQUER COISA
@@ -77,7 +65,7 @@ for i in lista_de_listas:
         name.write('\n')
 #TODO FECHAR O ARQUIVO.
 name.close()
-
+print('')
 print('DONE')
 
 # COMENTÁRIO: NOVA LINHA É UMA PRAGA.
