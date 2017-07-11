@@ -62,7 +62,6 @@ print('DEBUG: LISTA DE LISTAS')
 '''
 print(lista_de_listas)
 
-'''
 
 #TODO: CRIAR UM ARQUIVO CSV lindo
 import os
@@ -82,4 +81,4 @@ Bertuga.close()
 print('DONE')
 
 # COMENTÁRIO: NOVA LINHA É UMA PRAGA.
-'''
+
